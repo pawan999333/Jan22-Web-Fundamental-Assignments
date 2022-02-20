@@ -1,0 +1,72 @@
+<html>
+
+<head>
+
+</head>
+
+<body>
+   
+    <form action="">
+        <h1>Application form</h1>
+    <br>
+    <br>
+    
+
+    Full Name* <br>
+    <input type="text" placeholder="Enter full name" required pattern="[A-za-z]+" name="fullname">
+    <br>
+    <br>
+    Email* <br>
+    <input type="email" placeholder="Enter email" required pattern=".+@gmail\.com" name="gmail">
+    <br>
+    <br>
+    Phone* <br>
+    <input type="text" placeholder="Enter mobile number" name="mob" required pattern="[6-9]{1}[0-9]{9}">
+    <br>
+    <br>
+    Highest Degree* <br>
+    <select name="degree">
+        <option selected disabled>Select your Highest Qualification</option>
+        <option value="1">BE or B.Tech CS/IT</option>
+          <option value="2">BE or B.Tech Others</option>
+          <option value="3">MS or M.Tech CS/IT</option>
+          <option value="4">MS or M.Tech Others</option>
+          <option value="5">BCA</option>
+          <option value="6">MCA</option>
+          <option value="7">Others</option>
+    </select>
+    <br>
+    <br>
+    Year of Completion* <br>
+    <select name="year">
+        <option selected disabled>Select Year Of Passing</option>
+        <option value="1">2018</option>
+        <option value="2">2019</option>
+        <option value="3">2020</option>
+        <option value="4">2021</option>
+        <option value="5">2022</option>
+        <option value="6">2023</option>
+    </select>
+    <br>
+    <br>
+    Programming Skills* <br>
+    <select name="skills" required>
+        <option selected disabled>Select Programming Skill Level</option>
+        <option value="1">No coding skills</option>
+        <option value="2">Basic coding skills</option>
+        <option value="3">Intermidate coding skills</option>
+        <option value="4">Good coding skills</option>
+
+    </select>
+    <br>
+    <br>
+    <input type="checkbox" name="check" value="1" > By signing up, you agree
+    to the Terms and Conditions of Geekster (QuantumBit technologies Pvt.
+    Ltd)*.
+    <br>
+    <br>
+    <input type="submit" name="sub">
+    </form>
+</body>
+
+</html>

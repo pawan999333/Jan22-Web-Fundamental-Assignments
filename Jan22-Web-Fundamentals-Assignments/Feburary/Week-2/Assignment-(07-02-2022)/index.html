@@ -1,0 +1,48 @@
+<html>
+
+<head>
+
+</head>
+
+<body>
+    <h1>Application form:</h1>
+    <br>
+    <br>
+    <form>
+        Student's Name: <br>
+
+        <input type="text" placeholder="First Name" required pattern="[A-za-z]+" name="fn">
+        <input type="text" placeholder="Middle Name" required pattern="[A-za-z]+" name="sn">
+        <input type="text" placeholder="Last Name" required pattern="[A-za-z]+" name="ln">
+        <br>
+        <br>
+        Father's Name: <br>
+        <input type="text" placeholder="Father name" required pattern="[A-za-z]+" name="fat">
+        <br>
+        <br>
+        Email:
+        <br>
+        <input type="email" placeholder="Enter your email" required pattern=".+@gmail\.com" name="em">
+        <br>
+        <br>
+        Date of Birth:<br>
+        <input type="date" placeholder="" required name="date">
+        <br>
+        <br>
+        Contact Information: <br>
+        <input type="number" placeholder="Candidate's contact" required pattern="[6-9]{1}[0-9]{9}" minlength="10" maxlength="10">
+        <br>
+        <br>
+        <input type="number" placeholder="Parents Contact" required pattern="[6-9]{1}[0-9]{9}">
+        <br>
+        <br>
+        <input type="reset" name="re">
+        <input type="submit" name="sub">
+
+
+    </form>
+
+
+</body>
+
+</html>

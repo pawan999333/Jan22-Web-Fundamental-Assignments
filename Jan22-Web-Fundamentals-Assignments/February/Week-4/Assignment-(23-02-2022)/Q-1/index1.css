@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    background-color: lightgreen;
+    padding: 5px;
+}
+
+span {
+    margin-left: 640px;
+}
+
+.span1 {
+    margin-left: 3px;
+}
+
+input {
+    text-align: center;
+    margin-left: 640px;
+    width: 200px;
+    margin-bottom: 5px;
+}
+
+select {
+    margin-left: 710px;
+    background-color: blue;
+    color: white;
+}
+
+.anc1 {
+    text-decoration: none;
+}
+
+.submit {
+    background-color: blue;
+    color: white;
+}
+
+.checkbox {
+    width: 30px;
+    margin-left: 370px;
+    padding-right: 3px;
+}

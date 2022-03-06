@@ -1,0 +1,17 @@
+var a=10;
+var b= 20;
+document.write("Elements before swap are:");
+document.write("<br>");
+document.write(a);
+document.write("<br>");
+document.write(b);
+document.write("<br>");
+document.write("<br>");
+document.write("Elements after swap are:");
+document.write("<br>");
+a=a+b;
+b=a-b;
+a=a-b;
+document.write(a);
+document.write("<br>");
+document.write(b);

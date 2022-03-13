@@ -1,0 +1,75 @@
+h1 {
+    text-align: center;
+    background-color: black;
+    color: whitesmoke;
+}
+
+.collage{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    row-gap: 40px;
+    margin-top: 20px;
+}
+span{
+    max-width: 500px;
+    border-radius: 50%;
+    width: 400px;
+   height: 400px;
+   padding: 0px 30px;
+   border: 2px solid gray;
+}
+
+body{
+    background-color: black;
+    font-family: sans-serif;
+}
+.head{
+    text-align: center;
+    background-color: #0E185F;
+    margin-top: -8px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    padding:2px
+}
+.heading{
+    font-size:45px;
+    color: white;
+}
+.like{
+    text-align: center;
+    background-color: green;
+    border-radius: 50%;
+    display: inline-block;
+    padding: 4px;
+    margin-top: 300px;
+    margin-left: 260px;
+}
+.dislike{
+    text-align: center;
+    background-color: green;
+    border-radius: 50%;
+    display: inline-block;
+    padding: 4px;
+}
+img{
+    width: 25px;
+}
+.inline{
+    height: 25px;
+    text-align: center;
+    background-color: #54ff5c;
+    border-radius: 20px;
+    display: inline-block;
+    color: white;
+    margin-left: -12px;
+    font-weight: bold;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+img:hover{
+    cursor: pointer;
+}
+img:active{
+    background-color: #2FA4FF;
+}

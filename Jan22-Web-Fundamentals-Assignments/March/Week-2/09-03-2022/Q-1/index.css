@@ -1,0 +1,68 @@
+
+
+body{
+    width: 100%;
+    margin: 0;
+}
+.box{
+    
+    width: 100%;
+    
+    
+}
+.container{
+    background-color: brown;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
+.container h1{
+    font-family:cursive;
+}
+.container h4{
+    font-family:cursive;
+    color: blue;
+}
+button{
+    cursor: pointer;
+    background: linear-gradient(rgb(190, 36, 113),rgb(59, 134, 57));
+    color: white;
+    height: 50px;
+    width: 40px;
+}
+button:hover{
+    cursor: pointer;
+    color: aqua;
+}
+#inputField{
+    background: url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/v996-008.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=cd9b0934d51e4428a42dfcd6317d57d0);
+    border-radius: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+    width: 260px;
+    height: 40px;
+    border: 1px dashed black;
+    outline: none;
+}
+#addToDo{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(0, 217, 255);
+    border: 2px solid rgb(5, 255, 26);
+}
+.paragraph-styling{
+    background: url(https://cutewallpaper.org/21/dark-colors-wallpapers/Dark-Color-Hd-Background-Funny-Wallpapers.jpg);
+    font-size: 20px;
+    color: white;
+    font-style: normal;
+    font-weight: 600;
+    border-radius: 13px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 5px;
+    cursor: progress    ;
+}
+.to-do {
+    margin-top: 20px;
+}
